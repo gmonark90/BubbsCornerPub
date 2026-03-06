@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bubb's Corner Pub &amp; Grill</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+ </head>
+<body class="bar-site bar-home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">RB</span>
+        <div class="logo-text">
+          <span class="logo-title">BubbsCornerPUB</span>
+          <span class="logo-subtitle">Bar &amp; Grill</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="food-menu.html">Food Menu</a>
+        <a href="drinks-menu.html">Drinks</a>
+        <a href="rewards.html">Rewards</a>
+        <a href="events.html">Events</a>
+        <a href="location.html">Location</a>
+        <a href="online-ordering.html">Order Online</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Good Drinks. Great Food. Better Nights.</h1>
+        <p>Craft cocktails, cold beer, and American comfort food in the heart of the city.</p>
+        <div class="hero-actions">
+          <a href="online-ordering.html" class="btn primary">Order Online</a>
+          <a href="drinks-menu.html" class="btn ghost">View Drinks</a>
+          <a href="food-menu.html" class="btn ghost">View Food</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <span class="label">Happy Hour</span>
+            <span>Mon–Fri, 4pm – 7pm</span>
+          </div>
+          <div>
+            <span class="label">Kitchen Hours</span>
+            <span>Sun–Thu: 11am – 11pm · Fri–Sat: 11am – 1am</span>
+          </div>
+        </div>
+
+        <section class="deals-slider" aria-label="Daily deals this week">
+          <div class="deals-days" role="tablist">
+            <button class="deal-day active" type="button" data-index="0" role="tab">Mon</button>
+            <button class="deal-day" type="button" data-index="1" role="tab">Tue</button>
+            <button class="deal-day" type="button" data-index="2" role="tab">Wed</button>
+            <button class="deal-day" type="button" data-index="3" role="tab">Thu</button>
+            <button class="deal-day" type="button" data-index="4" role="tab">Fri</button>
+            <button class="deal-day" type="button" data-index="5" role="tab">Sat</button>
+            <button class="deal-day" type="button" data-index="6" role="tab">Sun</button>
+          </div>
+          <div class="deals-viewport">
+            <article class="deal-slide active" data-index="0">
+              <span class="deal-day-label">Monday · Kickoff Deals</span>
+              <h3 class="deal-title">Half‑Price Apps &amp; $5 Drafts</h3>
+              <p class="deal-details">Start the week with 50% off select shareables and $5 rotating draft beers from 4–9pm.</p>
+              <span class="deal-highlight pill">Today&apos;s highlight</span>
+            </article>
+            <article class="deal-slide" data-index="1">
+              <span class="deal-day-label">Tuesday · Taco &amp; Tequila Night</span>
+              <h3 class="deal-title">$3 Street Tacos &amp; $8 Margaritas</h3>
+              <p class="deal-details">Mix and match chicken or carne asada tacos with classic or spicy house margaritas.</p>
+              <span class="deal-highlight pill">Today&apos;s highlight</span>
+            </article>
+            <article class="deal-slide" data-index="2">
+              <span class="deal-day-label">Wednesday · Wing Wednesday</span>
+              <h3 class="deal-title">75¢ Wings &amp; $6 Local Pints</h3>
+              <p class="deal-details">Choose your sauce, grab a pint, and settle in for mid‑week games on the big screens.</p>
+              <span class="deal-highlight pill">Today&apos;s highlight</span>
+            </article>
+            <article class="deal-slide" data-index="3">
+              <span class="deal-day-label">Thursday · Burger &amp; Bourbon</span>
+              <h3 class="deal-title">$12 Signature Burgers &amp; $2 Off Bourbon</h3>
+              <p class="deal-details">Any signature burger with seasoned fries plus $2 off all bourbons, neat or on the rocks.</p>
+              <span class="deal-highlight pill">Today&apos;s highlight</span>
+            </article>
+            <article class="deal-slide" data-index="4">
+              <span class="deal-day-label">Friday · Late Night Happy Hour</span>
+              <h3 class="deal-title">2‑for‑1 House Cocktails · 9–11pm</h3>
+              <p class="deal-details">Celebrate the weekend with two‑for‑one house cocktails and $8 share plates after 9pm.</p>
+              <span class="deal-highlight pill">Today&apos;s highlight</span>
+            </article>
+            <article class="deal-slide" data-index="5">
+              <span class="deal-day-label">Saturday · Bucket &amp; Bites</span>
+              <h3 class="deal-title">$18 Domestic Buckets &amp; $10 Nachos</h3>
+              <p class="deal-details">Grab a bucket of domestics and a piled‑high nacho board for the table to share.</p>
+              <span class="deal-highlight pill">Today&apos;s highlight</span>
+            </article>
+            <article class="deal-slide" data-index="6">
+              <span class="deal-day-label">Sunday · Game Day Specials</span>
+              <h3 class="deal-title">$4 Mimosas, $6 Bloody Marys &amp; Brunch Plates</h3>
+              <p class="deal-details">Brunch until 2pm with drink specials running through the afternoon games.</p>
+              <span class="deal-highlight pill">Today&apos;s highlight</span>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section" id="highlights">
+      <div class="container">
+        <h2 class="section-title">What We Pour &amp; Serve</h2>
+        <div class="grid highlights-grid">
+          <article class="card">
+            <h3>Rotating Craft Beer</h3>
+            <p>Local favorites and seasonal taps alongside classic lagers and light beers.</p>
+            <a href="drinks-menu.html#beer" class="card-link">See beer list</a>
+          </article>
+          <article class="card">
+            <h3>Signature Cocktails</h3>
+            <p>House-infused spirits, fresh-squeezed juices, and playful takes on classics.</p>
+            <a href="drinks-menu.html#cocktails" class="card-link">Explore cocktails</a>
+          </article>
+          <article class="card">
+            <h3>American Comfort Food</h3>
+            <p>Wings, burgers, loaded fries, and late-night bites made to pair with your drink.</p>
+            <a href="food-menu.html" class="card-link">View food menu</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container split">
+        <div>
+          <h2 class="section-title">Earn Points Every Visit</h2>
+          <p>Join our Rewards program and earn points on every dollar you spend on food and drinks.</p>
+          <ul class="checklist">
+            <li>1 point per $1 spent</li>
+            <li>$5 credit for every 75 points</li>
+            <li>Birthday drink on the house</li>
+            <li>Early access to ticketed events</li>
+          </ul>
+          <a href="rewards.html" class="btn primary">Learn about Rewards</a>
+        </div>
+        <div class="panel">
+          <h3>Tonight's Specials</h3>
+          <ul class="specials-list">
+            <li>
+              <span>2-for-1 House Margaritas</span>
+              <span class="pill">4pm – 6pm</span>
+            </li>
+            <li>
+              <span>$5 Drafts · Select Taps</span>
+              <span class="pill">All Night</span>
+            </li>
+            <li>
+              <span>Wing Wednesday · 75¢ Wings</span>
+              <span class="pill">Dine-in</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="events-preview">
+      <div class="container">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="grid events-grid">
+          <article class="event-card">
+            <h3>Trivia Tuesdays</h3>
+            <p>Teams up to 6. Drink specials and prizes for the top 3 teams.</p>
+            <span class="event-meta">Every Tuesday · 7pm</span>
+          </article>
+          <article class="event-card">
+            <h3>Live Music Fridays</h3>
+            <p>Local bands, acoustic sets, and guest DJs on rotation.</p>
+            <span class="event-meta">Fridays · 9pm – Late</span>
+          </article>
+          <article class="event-card">
+            <h3>Game Day Watch Parties</h3>
+            <p>Wall-to-wall screens, pitcher specials, and shareable plates.</p>
+            <span class="event-meta">Sundays · From 12pm</span>
+          </article>
+        </div>
+        <a href="events.html" class="btn ghost">View full events calendar</a>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="visit">
+      <div class="container split">
+        <div>
+          <h2 class="section-title">Visit Us</h2>
+          <p>123 Barrel Street, Downtown · Your City, ST 12345</p>
+          <p class="muted">Parking available in the lot behind the building and nearby street parking after 6pm.</p>
+          <div class="contact-grid">
+            <div>
+              <span class="label">Phone</span>
+              <a href="tel:+11234567890">(123) 456-7890</a>
+            </div>
+            <div>
+              <span class="label">Email</span>
+              <a href="mailto:hello@rustybarrelbar.com">hello@rustybarrelbar.com</a>
+            </div>
+          </div>
+          <a href="location.html" class="btn primary">Get directions &amp; hours</a>
+        </div>
+        <div class="map-placeholder">
+          <span>Map preview</span>
+          <p>Embed your Google Maps iframe here when ready.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rusty Barrel Bar &amp; Grill. All rights reserved.</p>
+      <p class="muted">Please drink responsibly. Must be 21+ to consume alcohol.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+ </body>
+</html>

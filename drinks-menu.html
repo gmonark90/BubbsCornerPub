@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drinks Menu · Rusty Barrel Bar &amp; Grill</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+ </head>
+<body class="bar-site page-drinks">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">RB</span>
+        <div class="logo-text">
+          <span class="logo-title">Rusty Barrel</span>
+          <span class="logo-subtitle">Bar &amp; Grill</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="food-menu.html">Food Menu</a>
+        <a href="drinks-menu.html" class="active">Drinks</a>
+        <a href="rewards.html">Rewards</a>
+        <a href="events.html">Events</a>
+        <a href="location.html">Location</a>
+        <a href="online-ordering.html">Order Online</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Drinks Menu</h1>
+      <p>Full bar with classic cocktails, seasonal signatures, and a deep beer list on draft and in cans.</p>
+    </div>
+  </header>
+
+  <section class="menu-hero-gallery">
+    <div class="container">
+      <div class="menu-hero-grid">
+        <figure class="menu-hero-card">
+          <img src="https://images.pexels.com/photos/5531523/pexels-photo-5531523.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Colorful cocktails on a bar with garnishes">
+          <figcaption class="menu-hero-label">Signature cocktails</figcaption>
+        </figure>
+        <figure class="menu-hero-card">
+          <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Pint glasses of craft beer on a wooden bar">
+          <figcaption class="menu-hero-label">Rotating craft beer</figcaption>
+        </figure>
+        <figure class="menu-hero-card">
+          <img src="https://images.pexels.com/photos/1282428/pexels-photo-1282428.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Row of whiskey bottles on a back bar shelf">
+          <figcaption class="menu-hero-label">Whiskey &amp; spirits</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <main class="menu-layout">
+    <div class="container menu-grid">
+      <section>
+        <article class="menu-group" id="cocktails">
+          <h2>House Cocktails</h2>
+          <p class="menu-tagline">Balanced, approachable cocktails built to pair with our food.</p>
+          <ul class="menu-items">
+            <li class="menu-item">
+              <div class="menu-item-title">Barrel Old Fashioned</div>
+              <div class="menu-item-price">$13</div>
+              <div class="menu-item-desc">
+                Bourbon, demerara, bitters, orange oil, and brandied cherry.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Smoked Cherry Manhattan</div>
+              <div class="menu-item-price">$14</div>
+              <div class="menu-item-desc">
+                Rye whiskey, sweet vermouth, cherry bitters, and smoked cherry syrup.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Paloma Highball</div>
+              <div class="menu-item-price">$12</div>
+              <div class="menu-item-desc">
+                Blanco tequila, grapefruit, lime, soda, and sea salt rim.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Spicy Mezcal Margarita</div>
+              <div class="menu-item-price">$13</div>
+              <div class="menu-item-desc">
+                Mezcal, blanco tequila, house jalapeño syrup, lime, and smoked salt.
+              </div>
+              <div class="menu-badge-row">
+                <span class="badge highlight">spicy</span>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="menu-group" id="beer">
+          <h2>Beer &amp; Cider</h2>
+          <p class="menu-tagline">Rotating selection of local and national favorites on draft and in cans.</p>
+          <ul class="menu-items">
+            <li class="menu-item">
+              <div class="menu-item-title">Draft · Local IPA</div>
+              <div class="menu-item-price">$7</div>
+              <div class="menu-item-desc">
+                Rotating selection of West Coast and hazy IPAs. Ask your server what's pouring.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Draft · Amber Lager</div>
+              <div class="menu-item-price">$6</div>
+              <div class="menu-item-desc">
+                Easy-drinking lager with a malty backbone.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Bottle · Domestic</div>
+              <div class="menu-item-price">$5</div>
+              <div class="menu-item-desc">
+                Budweiser, Bud Light, Miller Lite, Coors Light, and more.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Can · Hard Cider</div>
+              <div class="menu-item-price">$7</div>
+              <div class="menu-item-desc">
+                Semi-dry apple cider, gluten-free.
+              </div>
+              <div class="menu-badge-row">
+                <span class="badge">gluten free</span>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="menu-group" id="spirits">
+          <h2>Spirits &amp; Straight Pours</h2>
+          <p class="menu-tagline">Ask for neat, on the rocks, or with a mixer.</p>
+          <ul class="menu-items">
+            <li class="menu-item">
+              <div class="menu-item-title">House Spirits</div>
+              <div class="menu-item-price">$8</div>
+              <div class="menu-item-desc">
+                Vodka, gin, rum, tequila, bourbon, whiskey, and scotch.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Top Shelf Pours</div>
+              <div class="menu-item-price">$12–$18</div>
+              <div class="menu-item-desc">
+                Selection of premium whiskey, tequila, mezcal, and gin. Ask to see the full list.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Boilermakers</div>
+              <div class="menu-item-price">$11</div>
+              <div class="menu-item-desc">
+                Your choice of beer with a shot of whiskey.
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="menu-group" id="zero-proof">
+          <h2>Zero-Proof &amp; N/A</h2>
+          <p class="menu-tagline">Thoughtful non-alcoholic options that still feel special.</p>
+          <ul class="menu-items">
+            <li class="menu-item">
+              <div class="menu-item-title">Grapefruit Spritz</div>
+              <div class="menu-item-price">$7</div>
+              <div class="menu-item-desc">
+                Fresh grapefruit, lime, agave, and soda with a salted rim.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">Cucumber Cooler</div>
+              <div class="menu-item-price">$7</div>
+              <div class="menu-item-desc">
+                Cucumber, mint, lime, and tonic.
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-title">N/A Beer</div>
+              <div class="menu-item-price">$6</div>
+              <div class="menu-item-desc">
+                Rotating non-alcoholic lager and IPA. Ask about today's options.
+              </div>
+            </li>
+          </ul>
+          <p class="menu-note">Drink responsibly. Must be 21+ to order or consume alcoholic beverages.</p>
+        </article>
+      </section>
+
+      <aside class="sidebar-card">
+        <h2>Happy Hour</h2>
+        <p>Available at the bar only. Not valid during special events or holidays.</p>
+        <ul class="list-compact">
+          <li>
+            <span>Draft Beer</span>
+            <span class="accent-text">$2 off</span>
+          </li>
+          <li>
+            <span>House Wine &amp; Well Drinks</span>
+            <span class="accent-text">$3 off</span>
+          </li>
+          <li>
+            <span>Classic Margaritas</span>
+            <span class="accent-text">$8</span>
+          </li>
+        </ul>
+        <p class="menu-note">Happy Hour · Mon–Fri, 4pm – 7pm.</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rusty Barrel Bar &amp; Grill. All rights reserved.</p>
+      <p class="muted">Please drink responsibly. Must be 21+ to consume alcohol.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

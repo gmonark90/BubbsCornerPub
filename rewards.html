@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rewards · Rusty Barrel Bar &amp; Grill</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+ </head>
+<body class="bar-site page-rewards">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">RB</span>
+        <div class="logo-text">
+          <span class="logo-title">Rusty Barrel</span>
+          <span class="logo-subtitle">Bar &amp; Grill</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="food-menu.html">Food Menu</a>
+        <a href="drinks-menu.html">Drinks</a>
+        <a href="rewards.html" class="active">Rewards</a>
+        <a href="events.html">Events</a>
+        <a href="location.html">Location</a>
+        <a href="online-ordering.html">Order Online</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Rusty Rewards</h1>
+      <p>Earn points on every visit and unlock perks like birthday drinks, exclusive tastings, and more.</p>
+    </div>
+  </header>
+
+  <main class="rewards-layout">
+    <div class="container rewards-grid">
+      <section>
+        <article class="rewards-card">
+          <h2>How It Works</h2>
+          <p>Sign up in person at the bar in under a minute. Start earning points right away with your first check.</p>
+          <ul class="checklist">
+            <li>1 point for every $1 you spend on food and drinks (before tax &amp; tip).</li>
+            <li>Every 75 points = $5 in bar credit.</li>
+            <li>Free birthday drink during your birthday week.</li>
+            <li>Early access to ticketed events and tastings.</li>
+          </ul>
+          <p class="menu-note">Points and rewards have no cash value. See in-store signage for full terms and conditions.</p>
+        </article>
+
+        <article class="rewards-card">
+          <h2>Tier Benefits</h2>
+          <div class="tiers">
+            <div class="tier">
+              <div class="tier-header">
+                <span class="tier-name">Barrel Member</span>
+                <span class="tier-points">0–499 lifetime points</span>
+              </div>
+              <ul class="tier-benefits">
+                <li>Earn 1x points on every purchase.</li>
+                <li>Birthday drink on us.</li>
+                <li>Access to member-only specials.</li>
+              </ul>
+            </div>
+            <div class="tier">
+              <div class="tier-header">
+                <span class="tier-name">Reserve Barrel</span>
+                <span class="tier-points">500–1499 lifetime points</span>
+              </div>
+              <ul class="tier-benefits">
+                <li>All Barrel Member perks.</li>
+                <li>1.25x points on food purchases.</li>
+                <li>Priority event seating when available.</li>
+              </ul>
+            </div>
+            <div class="tier">
+              <div class="tier-header">
+                <span class="tier-name">Cellar Club</span>
+                <span class="tier-points">1500+ lifetime points</span>
+              </div>
+              <ul class="tier-benefits">
+                <li>All Reserve Barrel perks.</li>
+                <li>1.5x points on all purchases.</li>
+                <li>Invites to private tastings and menu previews.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <aside class="calculator-card">
+        <h2>Rewards Calculator</h2>
+        <p>Estimate how many points and rewards you could earn based on your average monthly visits.</p>
+        <div class="field-group">
+          <label for="visits">Average visits per month</label>
+          <input type="number" id="visits" min="0" value="4" />
+        </div>
+        <div class="field-group">
+          <label for="spend">Average spend per visit (USD)</label>
+          <input type="number" id="spend" min="0" value="35" />
+        </div>
+        <button class="btn primary" id="calc-btn" type="button">Calculate</button>
+        <div class="calc-results" id="calc-results">
+          <div>
+            <span>Estimated monthly points</span>
+            <strong><span id="points-month">140</span> pts</strong>
+          </div>
+          <div>
+            <span>Estimated monthly credit back</span>
+            <strong>$<span id="credit-month">9</span></strong>
+          </div>
+          <p class="menu-note">Estimates only. Actual rewards may vary by promotions and exclusions.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rusty Barrel Bar &amp; Grill. All rights reserved.</p>
+      <p class="muted">Please drink responsibly. Must be 21+ to consume alcohol.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

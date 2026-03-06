@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Online · Rusty Barrel Bar &amp; Grill</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bar-site page-order">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">RB</span>
+        <div class="logo-text">
+          <span class="logo-title">Rusty Barrel</span>
+          <span class="logo-subtitle">Bar &amp; Grill</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="food-menu.html">Food Menu</a>
+        <a href="drinks-menu.html">Drinks</a>
+        <a href="rewards.html">Rewards</a>
+        <a href="events.html">Events</a>
+        <a href="location.html">Location</a>
+        <a href="online-ordering.html" class="active">Order Online</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Order Rusty Barrel Online</h1>
+      <p>Pickup and delivery powered by Toast. Browse the live menu, customize your order, and check out in just a few taps.</p>
+    </div>
+  </header>
+
+  <main class="location-layout">
+    <div class="container location-grid">
+      <section class="location-card">
+        <h2>Start Your Order</h2>
+        <p>Use our Toast-powered online ordering to schedule pickup, reorder your favorites, and see current item availability.</p>
+        <div class="location-section">
+          <h3>Order with Toast</h3>
+          <p class="muted">
+            When you click below, you&apos;ll be taken to our secure Toast ordering site where you can choose pickup or delivery (where available).
+          </p>
+          <a
+            href="https://www.toasttab.com/YOUR-RESTAURANT-SLUG/v3"
+            class="btn primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Start Order on Toast
+          </a>
+          <p class="menu-note">
+            Replace <code>YOUR-RESTAURANT-SLUG</code> in this link with the slug from your real Toast URL (for example:
+            <code>https://www.toasttab.com/rusty-barrel-bar-and-grill/v3</code>).
+          </p>
+        </div>
+
+        <div class="location-section">
+          <h3>Before You Order</h3>
+          <ul class="transport-list">
+            <li>Online menu and pricing come directly from our Toast system.</li>
+            <li>Some dine-in only specials may not be available for online ordering.</li>
+            <li>For large catering orders, please call the bar so we can plan with you.</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside class="map-embed">
+        <div style="padding:1.25rem 1.35rem;">
+          <h2 style="margin-top:0;">How Toast connects here</h2>
+          <p class="muted" style="font-size:0.88rem;">
+            This page simply links out to your official Toast online ordering site. All payment processing, live item availability,
+            and ticket routing to the bar/kitchen are handled inside Toast.
+          </p>
+          <p class="muted" style="font-size:0.82rem;margin-top:0.75rem;">
+            Once you have your real Toast ordering URL, just update the button link on this page and you&apos;re fully connected.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rusty Barrel Bar &amp; Grill. All rights reserved.</p>
+      <p class="muted">Please drink responsibly. Must be 21+ to consume alcohol.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

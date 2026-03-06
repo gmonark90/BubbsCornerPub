@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Location &amp; Hours · Rusty Barrel Bar &amp; Grill</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+ </head>
+<body class="bar-site page-location">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">RB</span>
+        <div class="logo-text">
+          <span class="logo-title">Rusty Barrel</span>
+          <span class="logo-subtitle">Bar &amp; Grill</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="food-menu.html">Food Menu</a>
+        <a href="drinks-menu.html">Drinks</a>
+        <a href="rewards.html">Rewards</a>
+        <a href="events.html">Events</a>
+        <a href="location.html" class="active">Location</a>
+        <a href="online-ordering.html">Order Online</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Location &amp; Hours</h1>
+      <p>Find us downtown with easy parking, plenty of screens, and a warm welcome waiting inside.</p>
+    </div>
+  </header>
+
+  <main class="location-layout">
+    <div class="container location-grid">
+      <section class="location-card">
+        <h2>Visit Rusty Barrel</h2>
+        <p>123 Barrel Street, Downtown<br>Your City, ST 12345</p>
+
+        <div class="location-section">
+          <h3>Hours</h3>
+          <div class="hours-grid">
+            <div>
+              <div class="label">Bar</div>
+              <div class="hours-row">
+                <span>Mon–Thu</span>
+                <span>3pm – 12am</span>
+              </div>
+              <div class="hours-row">
+                <span>Fri</span>
+                <span>3pm – 2am</span>
+              </div>
+              <div class="hours-row">
+                <span>Sat</span>
+                <span>11am – 2am</span>
+              </div>
+              <div class="hours-row">
+                <span>Sun</span>
+                <span>11am – 11pm</span>
+              </div>
+            </div>
+            <div>
+              <div class="label">Kitchen</div>
+              <div class="hours-row">
+                <span>Sun–Thu</span>
+                <span>11am – 11pm</span>
+              </div>
+              <div class="hours-row">
+                <span>Fri–Sat</span>
+                <span>11am – 1am</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-section">
+          <h3>Contact</h3>
+          <div class="contact-grid">
+            <div>
+              <span class="label">Phone</span>
+              <a href="tel:+11234567890">(123) 456-7890</a>
+            </div>
+            <div>
+              <span class="label">Email</span>
+              <a href="mailto:hello@rustybarrelbar.com">hello@rustybarrelbar.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-section">
+          <h3>Parking &amp; Transit</h3>
+          <ul class="transport-list">
+            <li>Free parking after 6pm in the lot behind the building.</li>
+            <li>Street parking available on Barrel Street and Oak Avenue.</li>
+            <li>Two blocks from the Main Street light rail stop.</li>
+            <li>Rideshare drop-off zone directly in front of the entrance.</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside class="map-embed">
+        <!-- Replace src with your actual Google Maps embed when ready -->
+        <iframe
+          title="Rusty Barrel Bar &amp; Grill Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345095074!2d144.95565131590418!3d-37.81732797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ5JzAyLjQiUyAxNDTCsDU3JzI3LjQiRQ!5e0!3m2!1sen!2sus!4v1610000000000!5m2!1sen!2sus"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rusty Barrel Bar &amp; Grill. All rights reserved.</p>
+      <p class="muted">Please drink responsibly. Must be 21+ to consume alcohol.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
